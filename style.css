@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'vazir';
+    src: url(assets/font/Vazir.woff);
+}
+
+body,
+button,
+input {
+    font-family: 'vazir';
+}
+
+.bg-wave {
+    background-color: #e6e6e6;
+}
+
+.icons {
+    width: 55px;
+    height: 55px;
+    background-color: #c7c7c7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.bg-myblue {
+    background-color: #1b2a4e;
+}
+
+.img-slider {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .img-slider {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img-slider {
+        height: 550px;
+    }
+}
+.input2{
+    height: 160px;
+}
+.img2{
+    >div{
+        >img{
+            width: 80px;
+            margin: auto;
+            display: block;
+        }
+    }
+}
